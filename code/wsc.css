@@ -1,0 +1,78 @@
+body{
+    background-color: ivory;
+    font-size: 20px;
+}
+.container {
+   max-width: 1048px;
+    margin: 0 auto;
+  }
+  
+  .bgr{
+      width: 100%;
+      background: url('ezgod.gif') no-repeat center;
+      background-size: contain;
+      padding-top: 40%;
+  }
+  h1{
+      color: maroon;
+      text-align: center;
+      font-size: 50px;
+      font-family: 'Times New Roman', Times, serif;
+      text-decoration: underline solid maroon;
+  }
+p.intro{
+    font-size: 20px;
+    text-indent: 1cm;
+}
+
+h1,
+p,
+a{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato';
+}
+
+h1.topic{
+  font-size: 2.8em;
+  padding: 10px 0;
+  font-weight: 800;
+  color: aliceblue;
+}
+
+
+
+.header {
+  width: 100%;
+  padding:0px 0;
+  text-align: center;
+  background: maroon;
+  color: white;
+}
+ p.mono{
+     font-size: 18px;
+ }
+ dl:after {content:"";display:table;clear:both;}
+ dt {
+    float: left;
+    width: 30%;
+    text-align: right;
+    padding: .25em;
+    clear: left;
+    font-weight: bolder;
+}
+dd {
+    float: left;
+    width: 60%;
+    padding: .25em 0;
+    font-style: italic;
+}
+p.main{
+    text-indent: 1cm;
+}
+p.outro{
+    text-indent: 1cm;
+}
+button{
+    margin: 30px;
+}
