@@ -78,7 +78,7 @@ p.outro{
 button{
     margin: 30px;
     color: white;
-    font-size: 15px;
+    font-size: 17px;
     padding-top: 10px;
 }
 button.science{
@@ -96,6 +96,7 @@ button.sst{
 }
 button.sa{
     background-color: aquamarine;
+    color: black;
 }
 button.history{
     background-color: chocolate;
